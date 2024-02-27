@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../style/slider.css";
 import phase1 from "../assects/slider1.png";
 import phase2 from "../assects/slider2.png";
+
+import "aos/dist/aos.css";
+import AOS from "aos";
 import phase3 from "../assects/slider3.png";
 const slidesData = [
   <div>
@@ -113,12 +116,19 @@ const slidesData = [
   </div>,
 ];
 
+
+
+
 export const Slider = () => {
   const [startIndex, setStartIndex] = useState(0);
 
+  useEffect(() => {
+    AOS.init({ duration: 5500});
+  }, []);
+
   const nextSlide = () => {
     setStartIndex((prevIndex) =>
-      prevIndex + 3 < slidesData.length ? prevIndex + 1 : prevIndex
+      prevIndex + getSlidesPerPage() < slidesData.length ? prevIndex + 1 : prevIndex
     );
   };
 
@@ -126,27 +136,40 @@ export const Slider = () => {
     setStartIndex((prevIndex) => (prevIndex > 0 ? prevIndex - 1 : prevIndex));
   };
 
+  const getSlidesPerPage = () => {
+    if (window.innerWidth >= 1024) {
+      return 3; 
+    } else if (window.innerWidth >= 768) {
+      return 2; 
+    } else {
+      return 1;
+    }
+  };
+
+  window.addEventListener("resize", () => {
+    setStartIndex(0); 
+  });
+
   return (
-    <div className="relative bg-gradient-custom ">
-      <h1 class="text-custome-backgroud-1 font-bold text-5xl w-96 mr-10 mt-20">
+    <div className="relative bg-gradient-custom">
+      <h1 className="text-custome-backgroud-1 font-bold text-5xl w-96 mr-10 mt-20">
         Roadmap
       </h1>
 
-      <div className="flex justify-center items-center space-x-4">
-        <button
-          className="focus:outline-none font-bold mt-20"
-          onClick={prevSlide}
-        >
+      <div className="flex justify-center items-center space-x-4 mt-20">
+        <button className="focus:outline-none font-bold" onClick={prevSlide}>
           {"<"}
         </button>
 
-        {slidesData.slice(startIndex, startIndex + 3).map((el, i) => (
-          <div key={i} className={` w-80 mt-20 `}>
-            {el}
-          </div>
-        ))}
+        {slidesData
+          .slice(startIndex, startIndex + getSlidesPerPage())
+          .map((el, i) => (
+            <div key={i} className={`w-80`} data-aos="fade-up" data-aos-duration="3000" >
+              {el}
+            </div>
+          ))}
 
-        <button className="focus:outline-none font-bold mt-20 " onClick={nextSlide}>
+        <button className="focus:outline-none font-bold" onClick={nextSlide}>
           {">"}
         </button>
       </div>
