@@ -2,64 +2,35 @@ import React from "react";
 import home from "../assects/home.svg";
 import { Navbar } from "./Navbar";
 import { Products } from "./Products";
+import star from "../assects/104.png";
+import box from "../assects/21.png";
 export const Home = () => {
   return (
-    <div className="bg-custome-backgroud-1">
+    <div className="bg-custome-backgroud-1 ">
       <Navbar />
-
-      {/* <div className="center mt-20">
-        <h1 className="text-white font-kanit font-bold text-5xl">
+      <img className="w-60 absolute -mt-20" src={box} alt="" />
+      <div className="center mt-40 relative">
+        <img className="w-60 absolute right-96" src={star} alt="" />
+        <h1 className="text-white font-kanit font-bold text-7xl mb-6 relative tracking-wide ">
           YOUR GATEWAY
         </h1>
-        <h1 className="text-white font-kanit font-bold text-5xl flex items-center justify-center">
-  <span className="mr-2">TO</span>
-  <span className="inline-block">
-    <img src={home} alt="" className="inline-block" style={{ verticalAlign: 'middle' }} />
-  </span>
-</h1>
 
-
-        <h1 className="text-white font-kanit font-bold text-5xl">
-          DEFI ON <span className="text-custom-button-yellow">BITCOIN</span> 
-        </h1>
-      </div> */}
-
-<div className="center mt-20">
-  <h1 className="text-white font-kanit font-bold text-5xl mb-2">
-    YOUR GATEWAY
-  </h1>
-  <h1 className="text-white font-kanit font-bold text-5xl flex items-center justify-center">
-    <span className="mr-2">TO</span>
-    <span className="inline-block">
-      <img src={home} alt="" className="inline-block" style={{ verticalAlign: 'middle' }} />
-    </span>
-  </h1>
-</div>
-
-      <div className="center mt-20">
-        <h1 className="text-white font-kanit font-bold text-5xl mb-4 relative tracking-wide">
-          YOUR GATEWAY
-        </h1>
-        <h1 className="text-white font-kanit font-bold text-5xl flex items-center justify-center">
-          <span className="mr-1">TO</span>
+        <h1 className="text-white font-kanit font-bold text-7xl flex items-center justify-center">
+          <span className="-ml-96 mt-15">TO</span>
           <span className="inline-block border">
             <img
               src={home}
               alt=""
-              className="inline-block"
-              style={{ verticalAlign: "middle" }}
-              
+              className="inline-block absolute -top-20 -right-0. mt-9 w-42 "
+              // style={{ verticalAlign: "middle" }}
             />
           </span>
         </h1>
-        <h1 className="text-white font-kanit font-bold text-5xl relative">
+        {/* <img className="w-20 absolute right-30" src={star} alt="" /> */}
+        <h1 className="text-white font-kanit font-bold text-7xl relative mt-10">
           DEFI ON <span className="text-custom-button-yellow">BITCOIN</span>
-          
         </h1>
       </div>
-
-
-
 
       <div className="flex justify-center mt-20">
         <div className="w-3/4">

@@ -4,7 +4,7 @@ import logo from "../assects/Frame 427318968.svg";
 export const Navbar = () => {
   return (
     <div className="flex justify-center ">
-      <nav className="flex justify-between items-center bg-custom-brown px-4 py-2 w-full max-w-7xl rounded-md mt-5">
+      <nav className="flex justify-between items-center bg-custom-brown px-4 py-2 w-full max-w-7xl rounded-md mt-5 fixed z-10">
         <div className="cursor-pointer">
           <img src={logo} alt="Logo" className="h-8" />
         </div>

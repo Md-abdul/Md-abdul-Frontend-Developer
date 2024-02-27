@@ -1,12 +1,12 @@
 import './App.css';
-// import { Navbar } from './pages/Navbar';
+import { Footer } from './pages/Footer';
 import {Home} from "./pages/Home"
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
       <Home/>
+      {/* <Footer/> */}
     </div>
   );
 }
