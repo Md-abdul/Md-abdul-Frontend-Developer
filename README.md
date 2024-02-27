@@ -14,3 +14,13 @@ This repository contains the code for a landing page for Bitcoin Finance. It fea
 ### Tect stack
 * React
 * Talwind css
+
+## Landing Page view
+![Landingpage-coin](https://github.com/Md-abdul/Md-abdul-Frontend-Developer/assets/112768514/bdbe50d7-d678-48e6-854a-a147767ba380)
+
+## How to run the Project
+* Open the pages directory.
+* Clone this repo and run using the live server command 'npm run start'.
+
+## End Notes 📑
+In this project, we have tried to achieve a near-to-perfect clone of the original figma design provided as much as possible. This entire journey given us experiences and we have learned lots of things by applying to the actual website and it gave us a lot of confidence. Most of the features are added ..
