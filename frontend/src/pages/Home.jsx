@@ -4,6 +4,7 @@ import { Navbar } from "./Navbar";
 import { Products } from "./Products";
 import star from "../assects/104.png";
 import box from "../assects/21.png";
+import reactSymbol from "../assects/7.png";
 export const Home = () => {
   return (
     <div className="bg-custome-backgroud-1 ">
@@ -22,16 +23,16 @@ export const Home = () => {
               src={home}
               alt=""
               className="inline-block absolute -top-20 -right-0. mt-9 w-42 "
-              // style={{ verticalAlign: "middle" }}
+              
             />
           </span>
         </h1>
-        {/* <img className="w-20 absolute right-30" src={star} alt="" /> */}
+        
         <h1 className="text-white font-kanit font-bold text-7xl relative mt-10">
           DEFI ON <span className="text-custom-button-yellow">BITCOIN</span>
         </h1>
       </div>
-
+      <img className="absolute right-10 w-60" src={reactSymbol} alt="" />
       <div className="flex justify-center mt-20">
         <div className="w-3/4">
           <p className="text-white-text font-Inter">
@@ -41,8 +42,9 @@ export const Home = () => {
             alias. At et sint placeat.
           </p>
           <br />
-          <button className="bg-custom-button-yellow text-black p-3 rounded-full ">
-            Get Started →
+          <button className="bg-custom-button-yellow text-black p-0 rounded-full border">
+            <button className="border-4 p-3 rounded-full">Get Started →</button>
+            {/* Get Started → */}
           </button>
         </div>
       </div>

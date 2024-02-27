@@ -5,9 +5,13 @@ export const Navbar = () => {
   return (
     <div className="flex justify-center ">
       <nav className="flex justify-between items-center bg-custom-brown px-4 py-2 w-full max-w-7xl rounded-md mt-5 fixed z-10">
+
+              {/* { ------------------ website logo----------------}  */}
         <div className="cursor-pointer">
           <img src={logo} alt="Logo" className="h-8" />
         </div>
+
+              {/* { ------------------ Navigation links ----------------}  */}
         <div className="flex gap-8 items-center">
           <a href="#about" className="text-white">
             About
@@ -26,7 +30,7 @@ export const Navbar = () => {
           </button>
         </div>
       </nav>
-      <img src={"../assects/home.svg"} alt="" />
+      {/* <img src={"../assects/home.svg"} alt="" /> */}
     </div>
   );
 };
