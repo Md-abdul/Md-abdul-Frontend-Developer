@@ -1,13 +1,18 @@
 # Saviour Landing Page
 
 ## Description
-This project is a clone of Saviour , created using React and Tailwind CSS. The goal was to replicate the design provided in a Figma file and ensure responsiveness across different screen sizes, including small, medium, and large screens.
+This project is a clone of Saviour , created using React and Tailwind CSS. The goal was to replicate the design provided in a Figma file and ensure responsiveness across different screen sizes, including small, medium, and large screens.This project implements wallet connection functionality using the WalletConnect protocol. Users can connect their wallets to the application to interact with decentralized applications
 
 #### deploy link frontend:- https://65e9b157f86b2500966fa65c--symphonious-muffin-4e18f3.netlify.app/
 
 
 ### Functionalities
 
+* Wallet connection using WalletConnect protocol
+* Support for multiple blockchain networks
+* Seamless integration with Web3Modal library
+* Secure and encrypted wallet interactions
+* Customizable wallet connection UI
 
 #### Fully Responsive Design:
 * Ensured that the landing page is fully responsive across various devices and screen sizes, providing a seamless user experience regardless of the device being used.
@@ -21,6 +26,8 @@ This project is a clone of Saviour , created using React and Tailwind CSS. The g
 * Html 5
 * CSS3
 * Responsive Web Design Principles
+* Web3Modal
+* WalletConnect
 
 ## Landing Page view
 ![landing page](https://github.com/Md-abdul/Md-abdul-Frontend-Developer/assets/112768514/70c097d3-3db1-4a9c-bc16-67c5814ed079)
