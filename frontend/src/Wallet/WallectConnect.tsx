@@ -5,9 +5,6 @@ import { defaultWagmiConfig } from "@web3modal/wagmi/react/config";
 import { arbitrum, mainnet } from "wagmi/chains";
 
 
-//wallect connect project id
-const projectId = "9cdbe4deba9e27558791812dc260a6d9";
-
 
 const metadata = {
   name: "Web3Modal",
@@ -15,6 +12,9 @@ const metadata = {
   url: "https://web3modal.com",
   icons: ["https://avatars.githubusercontent.com/u/37784886"],
 };
+
+//wallect connect project id
+const projectId = "9cdbe4deba9e27558791812dc260a6d9";
 
 const chains = [mainnet, arbitrum] as const;
 const config = defaultWagmiConfig({
