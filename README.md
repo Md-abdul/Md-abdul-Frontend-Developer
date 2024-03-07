@@ -1,18 +1,13 @@
-# Bitcoin Finance Landing Page
+# Saviour Landing Page
 
 ## Description
-This repository contains the code for a landing page for Bitcoin Finance. It features a clean and modern user interface designed to provide information about Bitcoin Finance and its functionalities.
+This project is a clone of Saviour , created using React and Tailwind CSS. The goal was to replicate the design provided in a Figma file and ensure responsiveness across different screen sizes, including small, medium, and large screens.
 
 #### deploy link frontend:- https://65e959dff661f1b03d46a5f5--resplendent-cranachan-a1ae83.netlify.app/
 
 
 ### Functionalities
 
-#### Slider Component:
-* The landing page now includes a slider component to showcase important features or information in a dynamic and engaging manner.
-
-#### Animation:
-* Implemented animations to enhance user interaction and visual appeal, creating a more dynamic and engaging user experience.
 
 #### Fully Responsive Design:
 * Ensured that the landing page is fully responsive across various devices and screen sizes, providing a seamless user experience regardless of the device being used.
