@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
+// const projectId = "2a2a5978a58aad734d13a2d194ec469a"
+// const {creatWeb3Moal, defaultWagmiConfig} from "@web3modal/wagmi"
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
