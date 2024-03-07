@@ -10,8 +10,8 @@ export const Footer = () => {
       <div>
         <img src={footerLogo} alt="Footer Logo" />
       </div>
-      <h1 className="text-xl font-bold mt-4 mb-2">SITEMAP</h1>
-      <div className="flex flex-wrap justify-center gap-4">
+      <h1 className="text-xl font-bold mt-4 mb-2 text-heading">SITEMAP</h1>
+      <div className="flex flex-wrap justify-center gap-4 font-xl">
         <p>Home</p>
         <p>IDO</p>
         <p>Tokenomics</p>
