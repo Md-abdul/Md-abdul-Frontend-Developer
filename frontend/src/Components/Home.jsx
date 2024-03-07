@@ -30,12 +30,15 @@ export const Home = () => {
             </h3>
             <span className="text-gray-500">read more ...</span>
           </div>
-          <div className="flex mt-10 lg:order-3 order-3">
-            <button className="bg-gradient-button p-3 rounded-full flex items-center">
-              <h1 className="font-zcool">Documents</h1>
-              <IoIosArrowDown className="ml-2" />
-            </button>
-          </div>
+
+          <div className="flex mt-10 lg:order-3 order-3 justify-center lg:justify-start">
+  <button className="bg-gradient-button p-3 rounded-full flex items-center">
+    <h1 className="font-zcool">Documents</h1>
+    <IoIosArrowDown className="ml-2" />
+  </button>
+</div>
+
+
         </div>
 
         <div className="mb-8 lg:mb-0 lg:order-2 order-1 sm:w-1/2 flex justify-center">
