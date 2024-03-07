@@ -3,7 +3,7 @@
 ## Description
 This project is a clone of Saviour , created using React and Tailwind CSS. The goal was to replicate the design provided in a Figma file and ensure responsiveness across different screen sizes, including small, medium, and large screens.
 
-#### deploy link frontend:- https://65e959dff661f1b03d46a5f5--resplendent-cranachan-a1ae83.netlify.app/
+#### deploy link frontend:- https://65e9b157f86b2500966fa65c--symphonious-muffin-4e18f3.netlify.app/
 
 
 ### Functionalities
