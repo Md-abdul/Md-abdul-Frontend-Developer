@@ -29,7 +29,7 @@ export const Navbar = () => {
               <div className="flex items-center">
                 <button
                   onClick={toggleNavbar}
-                  className="mr-2 md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
+                  className="mr-2 md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none  focus:text-white"
                 >
                   {/* Use React Icons */}
                   {isOpen ? (
@@ -77,11 +77,8 @@ export const Navbar = () => {
                 >
                   Coming Soon
                 </Link>
+                
               </div>
-              {/* <button className=" font-semibold py-2 px-4 rounded-full shadow mt-10 bg-gradient-button" 
-              >
-                Connect Wallet
-              </button> */}
               <WallectConnect/>
             </div>
           </div>

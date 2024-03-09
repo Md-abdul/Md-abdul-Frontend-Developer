@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react'
 import { IoIosArrowDown } from "react-icons/io";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import SideLogo from "../assets/image 1.png";
-import { Footer } from "./Footer";
-export const FAQ = () => {
+import { Footer } from './Footer';
+
+export const FaqSection = () => {
   return (
-    <>
-      <div className="bg-FooterBackground  justify-center items-center lg:flex flex-row ">
+    <div>
+              <div className="bg-FooterBackground  justify-center items-center lg:flex flex-row ">
         <div>
           <img src={SideLogo} alt="" />
         </div>
@@ -61,9 +62,7 @@ export const FAQ = () => {
           </div>
         </div>
       </div>
-
-
       <Footer/>
-    </>
-  );
-};
+    </div>
+  )
+}

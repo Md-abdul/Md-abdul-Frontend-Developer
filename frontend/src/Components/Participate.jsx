@@ -85,12 +85,10 @@ export const Participate = () => {
                         alt=""
                       />
                     </button>
-                    {/* <div>
-                      <img src={copidImage} className="" alt="" />
-                    </div> */}
+                
                   </div>
 
-                  {/* <div cl/> */}
+                  
                 </div>
               </div>
 
