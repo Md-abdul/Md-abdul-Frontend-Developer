@@ -45,6 +45,9 @@ export const Home = () => {
       </div>
       <Participate />
     </>
+
+
+
   );
 };
 

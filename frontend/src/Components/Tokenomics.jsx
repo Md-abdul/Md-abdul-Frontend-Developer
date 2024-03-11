@@ -6,7 +6,6 @@ import Card3 from "../assets/Link (3).png";
 import Card4 from "../assets/Link4.png";
 import { FaqSection } from "./FaqSection";
 
-
 export const Tokenomics = () => {
   const myStyle = {
     backgroundImage: `url(${`https://s3-alpha-sig.figma.com/img/c869/1086/fe977eb60a56b9a690490c109cbb1a69?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VdvCCq3nWIgGgQrmVDBTdioKqUqFIQcZCiIWy51KvjjWnyS5JbGGX9GsonTUlJU6Fk0~MK6SnZk0NYYOkwvR-LLag~jBAz-vUFK5H-sCMUOutgk6FQzz4dIvWTvzxw29ZDJzX7c1cSWkhJaBmaz9VVcRbcjZ9SGcGrp6v2xUoG9Xi~j97Aa4vTDn669gCGn8b8~SUguLrxae5yOFqJhfcWSp7VsmyIR7HiVqQuX67BfZLcyIo6ccFZyksRbveD2fpO9geGgDp5sxaurcKyeNxmlCgsGd20DZFPPTm-u6lpjjYHMbdrCl8iMWBxpOZMJOmVYTOG90-wPiu34C9j3W~Q__`})`,
@@ -63,32 +62,36 @@ export const Tokenomics = () => {
         </div>
       </div>
 
-        {/* For large screens */}
-        <div style={RoadMapBackground} className="hidden sm:block p-5">
-          <h1 className="font-Shojumaru text-heading text-2xl text-center">
-            ROAD MAP
-          </h1>
-
-          <div className="flex justify-center items-center mt-5">
-            <img src={Card1} alt="" />
-            <img src={Card2} alt="" />
-            <img src={Card3} alt="" />
-            <img src={Card4} alt="" />
-          </div>
-        </div>
-
-        {/* For small screens */}
-        <div className="sm:hidden justify-center items-center" style={RoadMapBackground}>
+      {/* For large screens */}
+      <div style={RoadMapBackground} className="hidden sm:block p-5">
         <h1 className="font-Shojumaru text-heading text-2xl text-center">
-            ROAD MAP
-          </h1>
-          <div className="flex justify-center items-center mt-5 p-5">
-            <img src={Card1} alt="" className="w-[10rem]" />
-            <img src={Card2} alt="" className="w-[10rem]" />
-          </div>
+          ROAD MAP
+        </h1>
+
+        <div className="flex justify-center items-center mt-5">
+          <img src={Card1} alt="" />
+          <img src={Card2} alt="" />
+          <img src={Card3} alt="" />
+          <img src={Card4} alt="" />
         </div>
-      
-<FaqSection/>
+      </div>
+
+      {/* For small screens */}
+      <div
+        className="sm:hidden justify-center items-center"
+        style={RoadMapBackground}
+      >
+        <h1 className="font-Shojumaru text-heading text-2xl text-center">
+          ROAD MAP
+        </h1>
+        <div className="flex justify-center items-center mt-5 p-5">
+          <img src={Card1} alt="" className="w-[10rem]" />
+          <img src={Card2} alt="" className="w-[10rem]" />
+        </div>
+      </div>
+      <FaqSection />
     </>
   );
 };
+
+export default Tokenomics;

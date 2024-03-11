@@ -1,6 +1,7 @@
 import React from "react";
 import copidImage from "../assets/fluent_copy-16-filled.png";
-import { Tokenomics } from "./Tokenomics";
+import Tokenomics from "./Tokenomics";
+// import { Tokenomics } from "./Tokenomics";
 export const Participate = () => {
   const myStyle = {
     backgroundImage: `url(${`https://s3-alpha-sig.figma.com/img/b6b9/0f7f/8e9b3d8d12c20152d7f3a9b31de44fe8?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ehOUdXbWis3shbKtgpPUpGm0Q03Rlmg-PABTo7iiqQDcRad1FUOfTQjO-LFU~0b1nFdD1oO2BxakmjcORt9ASLc7szCErNMaz1evXLtDAV-hsfdOxY5RirkMOX6HXgggeJNAAyjlcVvmyHwQyD~MJ~KzK2-uKO6tzhXBl7HVwS6hYRjRzgGS2E1~g8D8S6-7ElrZl14llvPbn0fHbTEYUAauw8QVHTea3jDwuRD1jxdGdU~R7PHPzMEPmIW79x1U~UFXNJQfub-UiQ-JI~jhMQnySPAZoy3Oeg0h5raXhhGIkiAnXyWaGdvgmjXc~Mvdozo5D2Ke~DIm9KoKgO8YNQ__`})`,
@@ -158,7 +159,7 @@ export const Participate = () => {
         </div>
       </div>
 
-      <Tokenomics />
+      <Tokenomics/>
     </>
   );
 };
