@@ -3,7 +3,7 @@
 ## Description
 This project is a clone of Saviour , created using React and Tailwind CSS. The goal was to replicate the design provided in a Figma file and ensure responsiveness across different screen sizes, including small, medium, and large screens.This project implements wallet connection functionality using the WalletConnect protocol. Users can connect their wallets to the application to interact with decentralized applications
 
-#### deploy link frontend:- https://65ec898f9ed3fbbc1e5c855d--verdant-gnome-f9326a.netlify.app/
+#### deploy link frontend:- https://65eef9934ab570429a156d73--polite-froyo-fa85e1.netlify.app/
 
 
 ### Functionalities
