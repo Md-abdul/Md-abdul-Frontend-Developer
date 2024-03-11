@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import SideLogo from "../assets/image 1.png";
-import { Footer } from './Footer';
+import { Footer } from "./Footer";
 
 export const FaqSection = () => {
   return (
     <div>
-              <div className="bg-FooterBackground  justify-center items-center lg:flex flex-row ">
+      <div className="bg-FooterBackground  justify-center items-center lg:flex flex-row ">
         <div>
           <img src={SideLogo} alt="" />
         </div>
 
         <div>
-          <div className="flex flex-col">
+          <div className="flex flex-col p-5">
             <h1 className="font-Shojumaru text-heading text-3xl text-center">
               {" "}
               FAQ
@@ -62,7 +62,7 @@ export const FaqSection = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
-  )
-}
+  );
+};

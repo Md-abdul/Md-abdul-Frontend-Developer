@@ -20,8 +20,10 @@ module.exports = {
       backgroundImage: (theme) => ({
         "gradient-button":
           "linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%)",
-          
       }),
+      backgroundImagepic: {
+        "my-image": "url('./images/Rectangle 18.png')",
+      },
     },
   },
   plugins: [],

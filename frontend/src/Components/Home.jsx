@@ -1,19 +1,11 @@
 import React from "react";
 import Logo from "../assets/Brick_Matrix.png";
 import { IoIosArrowDown } from "react-icons/io";
-import { Participate } from "./Participate";
 
 export const Home = () => {
   return (
     <>
-      <div className="flex justify-center items-center mt-60">
-        <h1 className="text-center text-2xl lg:text-4xl text-white font-Shojumaru leading-tight lg:leading-tight lg:mt-4 lg:mb-4 sm:mt-2 sm:shadow-lg lg:shadow-none">
-          WHERE BLOCKCHAIN HEROES THRIVE, RESCUING
-          <span className="block font-normal">DREAMS, ELEVATING FORTUNES.</span>
-        </h1>
-      </div>
-
-      <div className="flex flex-col lg:flex-row items-center justify-center bg-black  px-4 space-between lg:mt-[13rem]">
+      <div className="flex flex-col lg:flex-row items-center justify-center bg-black  px-4 space-between lg:mt-[13rem] ">
         <div className="text-white lg:ml-40 lg:order-1 order-2 lg:w-1/2">
           <h1 className="font-Shojumaru text-heading lg:text-5xl mt-10 text-center lg:text-left sm:text-4xl ">
             INTRODUCTION
@@ -43,11 +35,7 @@ export const Home = () => {
           <img src={Logo} alt="Logo" />
         </div>
       </div>
-      <Participate />
     </>
-
-
-
   );
 };
 
