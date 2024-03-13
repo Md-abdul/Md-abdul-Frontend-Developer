@@ -35,13 +35,13 @@ export const WallectConnect = () => {
   const { open } = useWeb3Modal();
   return (
     
-    <button
-      className="font-semibold py-2 px-4 rounded-full shadow mt-10 bg-gradient-button lg:w-40 sm:w-[10px] md:w-[20px]"
-      onClick={() => open()}
-    >
-      Connect Wallet
-    </button>
-
-    
+    <div className=" md:flex mt-10">
+      <button
+        className="font-semibold py-2 px-4 rounded-full shadow bg-gradient-button w-40"
+        onClick={() => open()}
+      >
+        Connect Wallet
+      </button>
+    </div>
   );
 };

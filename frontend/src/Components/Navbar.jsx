@@ -42,7 +42,7 @@ export const Navbar = () => {
 
                 <div className="flex items-center mt-20">
                   <img className="w-15" src={logo} alt="Saviour Logo" />
-                  <span className="text-white text-lg font-zlogo mr-2 -mt-10">
+                  <span className="text-white text-lg font-zlogo mr-2 -mt-10 font-2xl">
                     Saviour
                   </span>
                 </div>
@@ -82,7 +82,8 @@ export const Navbar = () => {
                   </Link>
                 </div>
               </div>
-              <WallectConnect />
+              <div className=""><WallectConnect /></div>
+              
             </div>
 
             <div className="flex justify-center items-center mt-60 sm:mt-50">

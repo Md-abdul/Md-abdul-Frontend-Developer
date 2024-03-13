@@ -8,8 +8,10 @@ export const FaqSection = () => {
   return (
     <div>
       <div className="bg-FooterBackground  justify-center items-center lg:flex flex-row ">
-        <div>
-          <img src={SideLogo} alt="" />
+        <div className="flex justify-center lg:justify-start">
+          <div className="flex items-center">
+            <img src={SideLogo} alt="Side Logo" />
+          </div>
         </div>
 
         <div>

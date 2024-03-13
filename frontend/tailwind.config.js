@@ -11,11 +11,13 @@ module.exports = {
       colors: {
         "gradient-heading":
           "linear-gradient(93.73deg, #ED0137 20.19%, #F05733 88.3%)",
+          
         heading: "#ED0137",
         BorderColor: "#C4110C",
         CardBackground: "#0D0D0D",
         CustomBackground: "#3B3B3B",
         FooterBackground: "#1c1919",
+        FooterUpdateColor: "linear-gradient(180deg, #030405 0%, #120101 100%)"
       },
       backgroundImage: (theme) => ({
         "gradient-button":
@@ -29,3 +31,4 @@ module.exports = {
   plugins: [],
 };
 //background: ;
+//background: linear-gradient(180deg, #030405 0%, #120101 100%);
