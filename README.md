@@ -3,7 +3,7 @@
 ## Description
 This project is a clone of Saviour , created using React and Tailwind CSS. The goal was to replicate the design provided in a Figma file and ensure responsiveness across different screen sizes, including small, medium, and large screens.This project implements wallet connection functionality using the WalletConnect protocol. Users can connect their wallets to the application to interact with decentralized applications
 
-#### deploy link frontend:- https://65eef9934ab570429a156d73--polite-froyo-fa85e1.netlify.app/
+#### deploy link frontend:- https://65f1b2ff68d5a72386f79e15--celebrated-syrniki-cf6349.netlify.app/
 
 
 ### Functionalities
@@ -30,7 +30,8 @@ This project is a clone of Saviour , created using React and Tailwind CSS. The g
 * WalletConnect
 
 ## Landing Page view
-![landing page](https://github.com/Md-abdul/Md-abdul-Frontend-Developer/assets/112768514/70c097d3-3db1-4a9c-bc16-67c5814ed079)
+![saviour landing ](https://github.com/Md-abdul/Md-abdul-Frontend-Developer/assets/112768514/0615ff5c-b8ee-42c0-a6ed-937066a9d72a)
+
 
 
 ## FAQ Page view
@@ -38,7 +39,7 @@ This project is a clone of Saviour , created using React and Tailwind CSS. The g
 
 
 ## Mobile view
-![mobile view](https://github.com/Md-abdul/Md-abdul-Frontend-Developer/assets/112768514/70b84546-aea6-4961-9c97-92340bc241f6)
+![savour phone](https://github.com/Md-abdul/Md-abdul-Frontend-Developer/assets/112768514/39f0f0ae-6963-4225-ae02-03c343203e52)
 
 
 
