@@ -3,7 +3,7 @@
 ## Description
 This repository contains the code for a landing page for Bitcoin Finance. It features a clean and modern user interface designed to provide information about Bitcoin Finance and its functionalities.
 
-#### deploy link frontend:- https://65de1888a493a10cb02fed6c--celadon-llama-a49cb4.netlify.app/
+#### deploy link frontend:- https://animation-ui.netlify.app/
 #### deploy link backend:- https://matrix-backend-c074.onrender.com/api/tokens
 
 ### Functionalities
